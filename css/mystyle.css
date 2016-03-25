@@ -72,16 +72,14 @@ color:          #5A5A5A;
 
 p {
 	color: #666666;
-	margin-bottom: 34px;
-	font-size: 13px;
-	line-height: 26px;
-	font-weight: 300;
-	letter-spacing: 0.6px;
+	margin-bottom: 50px;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
 	text-decoration: none;
-	color: #ccc;
+	color: #3688CC;
 	transition: 500ms ease;
 	-moz-transition: 500ms ease;
 	-webkit-transition: 500ms ease;
@@ -93,7 +91,13 @@ a:hover,
 a:active {
 	opacity: 0.5;
 	text-decoration: none;
-	color: #ccc;
+	color: #3688CC;
+}
+
+h2 {
+	color: black;
+	font-size: 22px;
+	font-family: 'Lora', serif;
 }
 
 .jumbotron {
@@ -109,40 +113,52 @@ a:active {
 	font-size: 0px;
 }
 
-.mission {
-	padding-bottom: 50px;
-	padding-top: 50px;
+.about {
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
-.pillars {
-	padding-bottom: 50px;
-	padding-top: 50px;
+#intro {
+	color: black;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+#hr {
+	opacity: 0.5;
+	width: 150px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 .footer {
 	text-align: center;
-	background-color: #f3f3f3;
+	background-color: #def2f1;
 	width: 100%;
 	position: absolute;
-	height: 50px;
+	height: auto;
 	font-size: 13px;
 	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;	
 }
 
 .btn,
 .btn:visited {
-	background-color: #fff;
+	background-color: #e9babd;
 	color: black;
-	border-color: black;
+	border-color: #e9babd;
 }
 
 .btn:active,
 .btn:hover,
 .btn:focus,
 .btn:active:focus {
-	background-color: #ccc;
-	color: black;
-	border-color: black;
+	background-color: #fb969a;
+	color: white;
+	border-color: #fb969a;
 }
 
 @media screen and (max-width: 720px) {
