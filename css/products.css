@@ -5,7 +5,16 @@
 	padding-bottom: 33.34%;
 	background-size: 100% 100%;
 	}
-	
+
+.products {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}	
+
+.products p {
+	margin-bottom: 50px;
+}
+
 @media screen and (max-width: 720px) {
 	
 	.jumbotron {

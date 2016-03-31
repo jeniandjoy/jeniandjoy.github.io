@@ -12,7 +12,6 @@
 body, html { 
 	font-size: 100%; 
 	padding: 0; 
-	margin: 0; 
 	height: 100%;
 }
 
@@ -21,58 +20,41 @@ body {
  	font-family: arial, sans-serif;
 }
 
-/* START OF Change the Navbar Colors/Font/Size */
-.navbar .nav > li > a, .navbar .nav > li > a,
-.navbar .nav > li.current-menu-item > a, 
-.navbar .nav > li.current-menu-ancestor > a {
-color:          white;                        
-font-size:      16px;
-letter-spacing: 3px;
-}
-
-/* Adjust Menu colors - Normal */
-.navbar .nav > li > a, .navbar .nav > li > a {
-color:          lightgray;
-text-shadow:    none;
-}
-
-/* Adjust Menu colors - Hover */
-.navbar .nav > li > a:hover, .navbar .nav > li > a:hover { 
-color:          white;                      
-text-shadow:    none;
-}
-/* Adjust Menu colors - Active */
-.navbar .nav > li > a:active, .navbar .nav > li > a:active,
-.navbar .nav > li.current-menu-item > a, 
-.navbar .nav > li.current-menu-ancestor > a,
-.navbar .nav > li.current-menu-item > a, 
-.navbar .nav > li.current-menu-ancestor > a {
-color:          white;
-text-shadow:    none;
-}
- 
-/* Adjust dropdown Menu items (blue) text color, (yellow) shading and (green) border */
-.dropdown-menu > li > a {
-color:          blue;
-background:     yellow;
-border-bottom:  2px solid green;
-}
- 
-/* Remove the Hover/Focus Colors  */
-.navbar .nav > li.current-menu-item > a, .navbar .nav > li.current-menu-ancestor > a, 
-.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
-color:          #5A5A5A;
-}
-
 .navbar {
 	margin-bottom: 0;
+	font-family: 'Lora', Serif;
+	font-size: 16px;
+	letter-spacing: 4px;
 }
 
-/* END OF Change the Navbar Colors/Font/Size */
+
+/* Navbar customization credits http://bootstrap3-menu.codedorigin.com/ */
+
+.navbar-inverse { background-color: #313131}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #313131}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #313131}
+.dropdown-menu { background-color: #313131}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #313131}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #313131}
+.navbar-inverse .navbar-brand { color: #CFCFCF}
+.navbar-inverse .navbar-brand:hover { color: #CFCFCF}
+.navbar-inverse .navbar-nav>li>a { color: #CFCFCF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #5A5A5A}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #CFCFCF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #5a5a5a}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+/*End Nav Bar customization */
+
 
 p {
 	color: #666666;
-	margin-bottom: 50px;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -118,6 +100,11 @@ h2 {
 	padding-top: 30px;
 }
 
+.about p {
+	margin-bottom: 50px;
+}
+
+
 #intro {
 	color: black;
 	font-size: 16px;
@@ -125,7 +112,7 @@ h2 {
 }
 
 #hr {
-	opacity: 0.5;
+	opacity: 0.2;
 	width: 150px;
 	height: auto;
 	margin-top: 20px;
@@ -134,7 +121,7 @@ h2 {
 
 .footer {
 	text-align: center;
-	background-color: #def2f1;
+	background-color: #f5f5f5;
 	width: 100%;
 	position: absolute;
 	height: auto;
