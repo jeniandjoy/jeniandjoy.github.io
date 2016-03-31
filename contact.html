@@ -70,29 +70,29 @@
 		
 		<fieldset class="form-group">		
 			<label for="name">Full Name</label>
-			<input type="name" class="form-control" id="name" placeholder="Enter First and Last Name" required>
+			<input type="name" name="name" class="form-control" id="name" placeholder="Enter First and Last Name" required>
 		</fieldset>
 		
 		<fieldset class="form-group">		
 			<label for="email">Email address</label>
-			<input type="email" class="form-control" id="email" placeholder="Enter E-mail" required>
+			<input type="email" name="_replyto" class="form-control" id="email" placeholder="Enter E-mail" required>
 			<small class="text-muted">We'll never share your email with anyone else.</small>
 		</fieldset>
 		
 		<fieldset class="form-group">		
 			<label for="phone">Phone Number</label>
-			<input type="phone" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx">
+			<input type="phone" name="phone" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx">
 			<small class="text-muted">We'll never share your phone number with anyone else.</small>
 		</fieldset>
 		
 		<fieldset class="form-group">
 			<label for="referredBy">How Did You Hear About Us?</label>
-			<input type="referredBy" class="form-control" id="referredBy" placeholder="Referred By">
+			<input type="referredBy" name="referredBy" class="form-control" id="referredBy" placeholder="Who referred you?">
 		</fieldset>
 		
 		<fieldset class="form-group">
-			<label for="exampleSelect1">Reason for contacting</label>
-			<select class="form-control" id="exampleSelect1" required>
+			<label for="reason">Reason for contacting</label>
+			<select class="form-control" name="reason" id="reason" required>
 				<option>Sample Request</option>
 				<option>Feedback & Suggestions</option>
 				<option>Questions</option>
@@ -104,7 +104,7 @@
 		
 		<fieldset class="form-group">
 			<label for="comments">Comments</label>
-			<textarea class="form-control" id="comments" rows="10" required></textarea>
+			<textarea class="form-control" name="comments" id="comments" rows="10" required></textarea>
 		</fieldset>
 
 		<input type="hidden" name="_subject" value="New inquiry!" />
