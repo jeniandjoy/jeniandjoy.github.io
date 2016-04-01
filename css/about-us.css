@@ -6,10 +6,19 @@
 	background-size: 100% 100%;
 	}
 
-img {
+#founder {
 	margin-bottom: 50px;
+	margin-top: 20px;
 }
-	
+
+.blurb {
+	width: 80%;
+	margin-bottom: 50px;
+}	
+
+.blurb p {
+	margin-bottom: 20px;
+}
 	
 @media screen and (max-width: 720px) {
 	
