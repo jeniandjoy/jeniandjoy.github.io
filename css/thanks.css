@@ -4,7 +4,11 @@
 	height: 0;
 	padding-bottom: 33.34%;
 	background-size: 100% 100%;
-	}
+}
+	
+	p {
+		margin-bottom: 30px;
+}
 	
 @media screen and (max-width: 720px) {
 	
