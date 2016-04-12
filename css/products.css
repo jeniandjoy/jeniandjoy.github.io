@@ -40,3 +40,9 @@
 	}
 }	
 
+@media screen and (max-width: 399px) {
+	
+	#group {
+		width: 300px;
+	}
+}	
