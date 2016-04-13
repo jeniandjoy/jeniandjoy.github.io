@@ -1,0 +1,18 @@
+.jumbotron {
+	background: url('../img/our-philosophy-big.jpg');	
+	width: 100%;
+	height: 0;
+	padding-bottom: 33.34%;
+	background-size: 100% 100%;
+	}
+	
+@media screen and (max-width: 720px) {
+	
+	.jumbotron {
+	background: url('../img/our-philosophy.jpg');	
+	width: 100%;
+	height: 0;
+	padding-bottom: 66.67%;
+	background-size: 100% 100%;
+	}
+}	

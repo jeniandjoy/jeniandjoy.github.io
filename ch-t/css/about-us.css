@@ -1,0 +1,36 @@
+.jumbotron {
+	background: url('../img/about-us-big.jpg');	
+	width: 100%;
+	height: 0;
+	padding-bottom: 33.34%;
+	background-size: 100% 100%;
+	}
+
+#founder {
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.blurb {
+	width: 80%;
+	margin-bottom: 50px;
+}	
+
+.blurb p {
+	margin-bottom: 20px;
+}
+	
+@media screen and (max-width: 720px) {
+	
+	.jumbotron {
+	background: url('../img/about-us.jpg');	
+	width: 100%;
+	height: 0;
+	padding-bottom: 66.67%;
+	background-size: 100% 100%;
+	}
+	
+	.blurb {
+	width: 100%;
+	}	
+}	

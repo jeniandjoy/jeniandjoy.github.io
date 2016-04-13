@@ -19,7 +19,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 	<!-- My stylesheet -->
 	<link href="css/mystyle.css" type="text/css" rel="stylesheet" />
-	<link href="css/contact.css" type="text/css" rel="stylesheet" />	
+	<link href="css/about-us.css" type="text/css" rel="stylesheet" />	
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 	
@@ -57,87 +57,61 @@
 					</div>	
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class = "nav navbar-nav pull-right">
-				<li><a href="index.html">Home</a></li>
-				<li><a href = "products.html">Products</a></li>
-				<li><a href = "about-us.html">About Us</a></li>
-				<li class = "active"><a href = "contact.html">Contact</a></li>
+				<li class = "active"><a href="index.html">首页</a></li>
+				<li><a href = "products.html">产品</a></li>
+				<li><a href = "about-us.html">关于我们</a></li>
+				<li><a href = "contact.html">联系</a></li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Language
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">语言
 					<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-					  <li><a href="../contact.html">English</a></li>
-					  <li><a href="ch-t/contact.html">繁體中文</a></li>
-					  <li><a href="ch-s/contact.html">简体中文</a></li> 
+					  <li id=en><a href="../about-us.html">English</a></li>
+					  <li><a href="../ch-t/about-us.html">繁體中文</a></li>
+					  <li><a href="about-us.html">简体中文</a></li> 
 					</ul>
 				</li>
 			</ul>
 			<ul class="nav navbar-nav pull-left">
-				<li><a href="index.html">Jeni & Joy</a></li>
-			</ul>			
+				<li id=en2><a href="#">Jeni & Joy</a></li>
+			</ul>		
 		</div>   
-	</nav>				
+	</nav>					
 
 	<div class="jumbotron">	
 		<div class ="container">		
-			<h1>Contact</h1>	
+			<h1>About Us</h1>	
 		</div>		
 	</div>	
 	
-	<section class="intro">
+	<div class="intro">
 		<div class="container">
-		
-		<form action="//formspree.io/joycetse1001@gmail.com" method="post">
-		
-		<fieldset class="form-group">		
-			<label for="name">Full Name</label>
-			<input type="name" name="name" class="form-control" id="name" placeholder="Enter First and Last Name" required>
-		</fieldset>
-		
-		<fieldset class="form-group">		
-			<label for="email">Email address</label>
-			<input type="email" name="_replyto" class="form-control" id="email" placeholder="Enter E-mail" required>
-			<small class="text-muted">We'll never share your email with anyone else.</small>
-		</fieldset>
-		
-		<fieldset class="form-group">		
-			<label for="phone">Phone Number</label>
-			<input type="phone" name="phone" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx">
-			<small class="text-muted">We'll never share your phone number with anyone else.</small>
-		</fieldset>
-		
-		<fieldset class="form-group">
-			<label for="referredBy">How Did You Hear About Us?</label>
-			<input type="referredBy" name="referredBy" class="form-control" id="referredBy" placeholder="Who referred you?">
-		</fieldset>
-		
-		<fieldset class="form-group">
-			<label for="reason">Reason for contacting</label>
-			<select class="form-control" name="reason" id="reason" required>
-				<option>Sample Request</option>
-				<option>Feedback & Suggestions</option>
-				<option>Questions</option>
-				<option>Purchase Request</option>
-				<option>Product Request</option>
-				<option>Other</option>
-			</select>
-		</fieldset>
-		
-		<fieldset class="form-group">
-			<label for="comments">Comments</label>
-			<textarea class="form-control" name="comments" id="comments" rows="10" required></textarea>
-		</fieldset>
-
-		<input type="hidden" name="_subject" value="New inquiry!" />
-		<input type="hidden" name="_cc" value="estynnej@gmail.com" />
-		<input type="hidden" name="_next" value="thanks.html" />				
-		
-		<center>
-		<button class="btn btn-default" type="submit" value="Send">Submit</button><br><br>
-		</center>	
-		
-		</form>		
-		</div>		
-	</section>
+			<center>
+			<p id="bold">Jeni & Joy was founded in 2016 by sisters Jenny Tse and Joyce Tse. We were born in Hong Kong and were raised in Calgary, Alberta, Canada. We are both dreamers, avid World travelers, animal lovers, foodies and music enthusiasts. We pretty much do everything together!
+			<br><br>
+			We compliment each other in our flaws and strengths. It's hard to imagine a life without each other.</p>		
+	
+			<img id="hr" src="img/hr2.png">
+			<br>
+			
+			<img id="founder" src="img/joyce.jpg">
+			<div class="blurb">	
+			<p>Hi, I'm Joyce, the older of the two sisters. I studied at Queen's University graduate and have been working as an Engineer for the past few years.</p>
+			<p>Learning about skincare formulation allowed me to merge my love for Science and Skincare. I started making my own skincare products as a fun side hobby, and soon realized other people could benefit from my products too! I wanted to be able to have complete control over what I put on my face and be able to understand each ingredient in my products inside out. </p>
+			<p>We appreciate any feedback or suggestions as we want to constantly improve our products! I hope you love our products as much as I do! </p>
+			</div>
+			
+			<img id="hr" src="img/hr2.png">
+			<br>
+			
+			<img id="founder" src="img/jenny.jpg">
+			<div class="blurb">	
+			<p>Hello! I'm the younger sister, Jenny. I'm a graduate from the University of Calgary and am currently an Accountant.</p>
+			<p>I've always been found DIY projects and crafts intriguing, so I end up making a lot of things by myself. Having struggled with problem skin (dryness, sensitivity, acne, pigmentation) for many years, I immediately grew interest in making my own skincare when I came across a tutorial for a vitamin C serum, and that propelled me to research in depth about skincare.</p>
+			<p>After using our own DIY products I saw great improvement in my skin within weeks, and I was hooked! I don't think I've ever found anything that worked as well! </p>
+			</div>		
+			</center>
+		</div>
+	</div>
 		
 	<div class="footer">	
 		<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Jeni & Joy</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Joyce Tse</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>

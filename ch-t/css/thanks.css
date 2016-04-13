@@ -1,0 +1,22 @@
+.jumbotron {
+	background: url('../img/home-big.jpg');	
+	width: 100%;
+	height: 0;
+	padding-bottom: 33.34%;
+	background-size: 100% 100%;
+}
+	
+	p {
+		margin-bottom: 30px;
+}
+	
+@media screen and (max-width: 720px) {
+	
+	.jumbotron {
+	background: url('../img/home.jpg');	
+	width: 100%;
+	height: 0;
+	padding-bottom: 66.67%;
+	background-size: 100% 100%;
+	}
+}	
