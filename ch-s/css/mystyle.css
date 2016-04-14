@@ -65,7 +65,7 @@ body {
 
 p {
 	color: #666666;
-	font-size: 17px;
+	font-size: 16px;
 	font-family: "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
 	margin-bottom: 50px;
 	line-height: 150%;
@@ -113,7 +113,7 @@ h2 {
 
 #bold {
 	color: black;
-	font-size: 18px;
+	font-size: 17px;
 	letter-spacing: 1px;
 }
 
