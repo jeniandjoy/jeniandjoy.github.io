@@ -66,7 +66,7 @@ body {
 p {
 	color: #666666;
 	font-size: 17px;
-	font-family: 'cwtexhei', serif;
+	font-family: "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
 	margin-bottom: 50px;
 	line-height: 150%;
 }
@@ -90,8 +90,8 @@ a:active {
 
 h2 {
 	color: black;
-	font-size: 25px;
-	font-family: 'cwtexyen', serif;
+	font-size: 20px;
+	font-family: "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
 }
 
 .jumbotron {
