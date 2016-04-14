@@ -146,8 +146,8 @@ h2 {
 	background-color: #e9babd;
 	color: black;
 	border-color: #e9babd;
-	font-size: 16px;
-	font-family: 'cwtexhei', serif;
+	font-size: 15px;
+	font-family: "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
 }
 
 .btn:active,
