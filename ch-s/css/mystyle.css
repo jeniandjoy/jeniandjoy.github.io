@@ -65,8 +65,8 @@ body {
 
 p {
 	color: #666666;
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-family: 'cwtexhei', serif;
 	margin-bottom: 50px;
 	line-height: 150%;
 }
@@ -90,8 +90,8 @@ a:active {
 
 h2 {
 	color: black;
-	font-size: 22px;
-	font-family: 'Lora', serif;
+	font-size: 25px;
+	font-family: 'cwtexyen', serif;
 }
 
 .jumbotron {
@@ -113,8 +113,12 @@ h2 {
 
 #bold {
 	color: black;
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 1px;
+}
+
+#strong {
+	color: #C14A6E;
 }
 
 #hr {
@@ -142,6 +146,8 @@ h2 {
 	background-color: #e9babd;
 	color: black;
 	border-color: #e9babd;
+	font-size: 16px;
+	font-family: 'cwtexhei', serif;
 }
 
 .btn:active,
