@@ -86,21 +86,24 @@
 	<div class="intro">
 		<div class="container">
 		<p id="bold">We are constantly coming up with new products on a weekly basis, so make sure you subscribe to our newsletter!
-		
-		<div class="center-block">
-			<button id="open-popup" name="newsletter" class="btn btn-primary center-block">
-			Subscribe to our newsletter
-			</button>
-		</div>	
-		
-		<script>
-		function showMailingPopUp() {
-			require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"9b1c22c5ed22516e7ff6fbc49","lid":"5ed2b1084a"}) })
-			document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-		};
+			
+		<!-- Begin MailChimp Signup Form -->
+		<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 
-		document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-		</script>
+		<div id="mc_embed_signup">
+		<form action="//jeniandjoy.us13.list-manage.com/subscribe/post?u=9b1c22c5ed22516e7ff6fbc49&amp;id=5ed2b1084a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div id="mc_embed_signup_scroll">
+			<label for="mce-EMAIL">Subscribe to our mailing list</label>
+			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail address" required>
+			<br><br>
+			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9b1c22c5ed22516e7ff6fbc49_5ed2b1084a" tabindex="-1" value=""></div>
+			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary center-block"></div>
+			</div>
+		</form>
+		</div>
+
+		<!--End mc_embed_signup-->
 		
 		</p>
 		
