@@ -22,6 +22,8 @@
 	<link href="css/contact.css" type="text/css" rel="stylesheet" />	
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/earlyaccess/cwtexyen.css' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/earlyaccess/cwtexhei.css' rel='stylesheet' type='text/css'>
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -86,53 +88,57 @@
 	<section class="intro">
 		<div class="container">
 		
-		<form action="//formspree.io/joycetse1001@gmail.com" method="post">
+		<form action="//formspree.io/jeniandjoy@gmail.com" method="post">
 		
 		<fieldset class="form-group">		
-			<label for="name">Full name</label>
-			<input type="name" name="name" class="form-control" id="name" placeholder="First and Last Name" required>
+			<label for="name">姓名</label>
+			<input type="name" name="name" class="form-control" id="name" placeholder="名字及姓" required>
 		</fieldset>
 		
 		<fieldset class="form-group">		
-			<label for="email">Email address</label>
+			<label for="email">电邮</label>
 			<input type="email" name="_replyto" class="form-control" id="email" placeholder="contact@example.com" required>
-			<small class="text-muted">Your email will not be shared with anyone else.</small>
+			<small class="text-muted">你的电邮地址会完全保密。</small>
 		</fieldset>
 		
 		<fieldset class="form-group">		
-			<label for="phone">Phone number</label>
+			<label for="phone">电话号码</label>
 			<input type="phone" name="phone" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx">
-			<small class="text-muted">Your phone number will not be shared with anyone else.</small>
+			<small class="text-muted">你的电话号码会完全保密。</small>
 		</fieldset>
 		
 		<fieldset class="form-group">
-			<label for="referredBy">How did you hear about us?</label>
-			<input type="referredBy" name="referredBy" class="form-control" id="referredBy" placeholder="Who referred you?">
+			<label for="referredBy">你是如何知道我们的? </label>
+			<input type="referredBy" name="referredBy" class="form-control" id="referredBy" placeholder="是谁介绍你的？">
 		</fieldset>
 		
 		<fieldset class="form-group">
-			<label for="reason">Reason for contacting</label>
+			<label for="reason">联络我们的原因</label>
 			<select class="form-control" name="reason" id="reason" required>
-				<option>Sample request</option>
-				<option>Feedback & suggestions</option>
-				<option>Questions</option>
-				<option>Purchase request</option>
-				<option>Product request</option>
-				<option>Other</option>
+				<option>要求试用品</option>
+				<option>评价/建议</option>
+				<option>问题</option>
+				<option>要求购买</option>
+				<option>要求其他产品</option>
+				<option>其他</option>
 			</select>
 		</fieldset>
 		
 		<fieldset class="form-group">
-			<label for="comments">Comments</label>
+			<label for="comments">内容</label>
 			<textarea class="form-control" name="comments" id="comments" rows="10" required></textarea>
 		</fieldset>
+		
+		<fieldset class="form-group">
+          <input type="checkbox" checked="checked" name="newlsetter" id="newsletter" value="newsletter"> <label for="newsletter">订阅我们的最新产品消息报告</label>
+        </fieldset>		
 
 		<input type="hidden" name="_subject" value="New inquiry!" />
-		<input type="hidden" name="_cc" value="estynnej@gmail.com" />
+		<input type="hidden" name="_cc" value="" />
 		<input type="hidden" name="_next" value="thanks.html" />				
 		
 		<center>
-		<button class="btn btn-default" type="submit" value="Send">Submit</button><br><br>
+		<button class="btn btn-default" type="submit" value="Send">呈交表格</button><br><br>
 		</center>	
 		
 		</form>		
