@@ -143,16 +143,15 @@ h2 {
 	border-color: #fb969a;
 }
 
-#mc_embed_signup {
-	background: #fff;
+#mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	font:15px 'Open Sans',sans-serif; 
+	width:100%;
+	text-align: center;
 	margin: 0 auto;
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
 }
 
-#mc_embed_signup form {
-	text-align: center;
-}
 
 @media screen and (max-width: 720px) {
 	
