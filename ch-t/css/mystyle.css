@@ -161,7 +161,7 @@ h2 {
 
 .form-group {
 	font-size: 17px;
-	font-family: 'cwtexhei', serif;
+	font-family: "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif
 }
 
 @media screen and (max-width: 720px) {
