@@ -164,6 +164,15 @@ h2 {
 	font-family: "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif
 }
 
+#mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	font:16px "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif; 
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+}
+
 @media screen and (max-width: 720px) {
 	
 	.jumbotron {
