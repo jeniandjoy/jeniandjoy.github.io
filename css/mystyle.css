@@ -150,18 +150,19 @@ h2 {
 	width:100%;
 	text-align: center;
 	margin: 0 auto;
-	width: 500px;
+	width: 100%;
 }
 
 #mc_embed_signup .button {
 	clear:both; 
 	background-color: #e9babd; 
 	border: 0 none; 
-	border-radius:0px; 
+	border-radius:4px; 
 	transition: none; 
 	color: black; 
 	font-size:15px; 
 	margin: 0 auto;
+	text-align: center;
 }
 
 #mc_embed_signup .button:hover {
