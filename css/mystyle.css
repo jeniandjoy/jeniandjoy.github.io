@@ -153,6 +153,22 @@ h2 {
 	width: 500px;
 }
 
+#mc_embed_signup .button {
+	clear:both; 
+	background-color: #e9babd; 
+	border: 0 none; 
+	border-radius:0px; 
+	transition: none; 
+	color: black; 
+	font-size:15px; 
+	margin: 0 auto;
+}
+
+#mc_embed_signup .button:hover {
+	background-color:#fb969a;
+	color: white;
+}
+
 
 @media screen and (max-width: 720px) {
 	
